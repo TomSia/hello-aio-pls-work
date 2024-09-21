@@ -1,0 +1,7 @@
+/* View Process Order style starts here */
+.ViewOrderBox {
+  margin-left: 14%;
+  width: 86%;
+  height: 480px;
+  background-image: url("../../assets/images/lolvieworderbg.png");
+}
