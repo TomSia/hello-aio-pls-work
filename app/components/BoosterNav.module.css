@@ -1,0 +1,88 @@
+.NavContainer {
+  width: 14%;
+  height: 100vh;
+  padding: 1%;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  float: left;
+  position: absolute;
+}
+
+.Logo {
+  margin-left: -10px;
+  width: 120px;
+  height: 7vh;
+  background-image: url("./../assets/images/aiologo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.NavList {
+  margin-top: 5%;
+  height: 18vh;
+}
+
+.ListSelect {
+  height: 25%;
+  border-radius: 9px;
+  text-align: left;
+  line-height: 250%;
+}
+
+.ListSelected {
+  height: 25%;
+  border-radius: 9px;
+  text-align: left;
+  line-height: 250%;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.ListSelect:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+}
+
+.NavFiller {
+  height: 60%;
+}
+
+.NavProfile {
+  border-radius: 28px;
+  width: 170px;
+  height: 50px;
+  line-height: 300%;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.ProfileBox {
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+}
+
+.NavLogOut {
+  margin-top: 5%;
+  height: 5vh;
+  line-height: 250%;
+}
+
+/*Top Header.tsx style*/
+
+.TopHeader {
+  margin-left: 14%;
+  height: 10vh;
+  width: 86%;
+}
+
+.TopHeader h1 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 3%;
+  padding-top: 2.5%;
+}
